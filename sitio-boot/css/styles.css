@@ -2,8 +2,13 @@
     margin:0;
     padding:0;
 }
+<<<<<<< HEAD
 html, body{
     width:100%;
+=======
+body,html{
+    width: 100%;
+>>>>>>> f20336d056d29ef373d96278a4d292bf74d3f423
     height: 100%;
 }
 body {
@@ -16,6 +21,7 @@ header {
     font-size: 11pt;
     font-family: 'Segoe UI Symbol', sans-serif;
     font-weight: bold;
+    
 }
 
 header img{
@@ -83,14 +89,20 @@ nav a:hover, nav a:active {
     margin-top: 15px;
     margin-left: 12px;
 }
+<<<<<<< HEAD
 section{
     min-height: 100%;
+=======
+section{    
+    height: 100%;
+>>>>>>> f20336d056d29ef373d96278a4d292bf74d3f423
 }
 .art1{
     background-color: aquamarine;
     margin-right: 5%;
     margin-left: 5%;
     margin-top: -15px;
+    height: 100%;
     font-family: 'Segoe UI Symbol', sans-serif;
 }
 .art1 p, .art1 h2{
