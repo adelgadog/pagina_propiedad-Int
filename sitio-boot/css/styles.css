@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
 }
-html{
+html, body{
     width:100%;
     height: 100%;
 }
@@ -21,7 +21,9 @@ header {
 header img{
     margin-top:10px;
     width: 50px;
+
 }
+
 
 .head{
     text-align: center;
@@ -64,9 +66,25 @@ header a {
 nav a:hover, nav a:active {
     background-color: #0a2520;
 }
+
+/*nav a:hover > #icon {
+   z-index: -1;
+}*/
+#icon{
+    display: block;
+    z-index: 100;
+}
+#icon2{
+    margin-top: -55px;
+    display: block;
+    z-index: -8;
+}
 #cuestionario{
     margin-top: 15px;
     margin-left: 12px;
+}
+section{
+    min-height: 100%;
 }
 .art1{
     background-color: aquamarine;
