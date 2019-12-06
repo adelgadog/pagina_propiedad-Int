@@ -143,5 +143,16 @@ ul, ol{
 }
 .pie{
     width: 100%;
-    height: 10%;;
+    height: 12%;    
+    background-color: #5fc500;
+    position: relative;
+}
+.creadores{
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+.enlaces{
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
