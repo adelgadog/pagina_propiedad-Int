@@ -16,6 +16,7 @@ header {
     font-size: 11pt;
     font-family: 'Segoe UI Symbol', sans-serif;
     font-weight: bold;
+    
 }
 
 header img{
@@ -67,6 +68,9 @@ nav a:hover, nav a:active {
 #cuestionario{
     margin-top: 15px;
     margin-left: 12px;
+}
+section{    
+    height: 100%;
 }
 .art1{
     background-color: aquamarine;
