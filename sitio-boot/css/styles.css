@@ -25,12 +25,13 @@ header img{
 
 .head{
     text-align: center;
-    margin-top: -55px;
+    margin-top: -45px;
 }
  
  
 nav {
     padding: 0;
+    margin-top: 15px;
     width: 100%;
     text-align:center;
 }
@@ -63,7 +64,10 @@ header a {
 nav a:hover, nav a:active {
     background-color: #0a2520;
 }
-
+#cuestionario{
+    margin-top: 15px;
+    margin-left: 12px;
+}
 .art1{
     background-color: aquamarine;
     margin-right: 5%;
