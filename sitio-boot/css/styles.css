@@ -2,8 +2,13 @@
     margin:0;
     padding:0;
 }
+<<<<<<< HEAD
+html, body{
+    width:100%;
+=======
 body,html{
     width: 100%;
+>>>>>>> f20336d056d29ef373d96278a4d292bf74d3f423
     height: 100%;
 }
 body {
@@ -22,7 +27,9 @@ header {
 header img{
     margin-top:10px;
     width: 50px;
+
 }
+
 
 .head{
     text-align: center;
@@ -65,12 +72,34 @@ header a {
 nav a:hover, nav a:active {
     background-color: #0a2520;
 }
+
+/*nav a:hover > #icon {
+   z-index: -1;
+}*/
+#icon{
+    display: block;
+    z-index: 100;
+}
+#icon2{
+    margin-top: -55px;
+    display: block;
+    z-index: -8;
+}
 #cuestionario{
     margin-top: 15px;
     margin-left: 12px;
 }
-section{    
+<<<<<<< HEAD
+section{
     min-height: 100%;
+=======
+section{    
+<<<<<<< HEAD
+    min-height: 100%;
+=======
+    height: 100%;
+>>>>>>> f20336d056d29ef373d96278a4d292bf74d3f423
+>>>>>>> 55086a35be7d1906cefd49e8eb0a39027709a443
 }
 .art1{
     background-color: aquamarine;
