@@ -2,13 +2,8 @@
     margin:0;
     padding:0;
 }
-<<<<<<< HEAD
 html, body{
     width:100%;
-=======
-body,html{
-    width: 100%;
->>>>>>> f20336d056d29ef373d96278a4d292bf74d3f423
     height: 100%;
 }
 body {
@@ -89,17 +84,8 @@ nav a:hover, nav a:active {
     margin-top: 15px;
     margin-left: 12px;
 }
-<<<<<<< HEAD
 section{
     min-height: 100%;
-=======
-section{    
-<<<<<<< HEAD
-    min-height: 100%;
-=======
-    height: 100%;
->>>>>>> f20336d056d29ef373d96278a4d292bf74d3f423
->>>>>>> 55086a35be7d1906cefd49e8eb0a39027709a443
 }
 .art1{
     background-color: aquamarine;
