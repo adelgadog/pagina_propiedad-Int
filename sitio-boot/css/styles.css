@@ -16,7 +16,7 @@ header {
     font-size: 11pt;
     font-family: 'Segoe UI Symbol', sans-serif;
     font-weight: bold;
-
+    height: auto;
 }
 
 header img{
@@ -28,7 +28,7 @@ header img{
 
 .head{
     text-align: center;
-    margin-top: -45px;
+    margin-top: 0px;
 }
  
  
@@ -54,7 +54,7 @@ nav li {
     line-height: 40px;
 }
 
-header a {
+.emenu {
     color: rgb(255, 255, 255);
     display: inline-block;
     width: 200px;
@@ -67,18 +67,24 @@ header a {
 nav a:hover, nav a:active {
     background-color: #0a2520;
 }
-
-/*nav a:hover > #icon {
-   z-index: -1;
-}*/
-#icon{
-    display: block;
-    z-index: 100;
+.emenu:hover .iluminado {
+   z-index: 2;
+   opacity: 1;
 }
-#icon2{
-    margin-top: -55px;
+.apagado{    
     display: block;
-    z-index: -8;
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.iluminado{
+    opacity: 0;
+    display: block;
+    z-index: 0;
+    position: absolute;
+    top: 10px;
+    left: 5px;
 }
 #cuestionario{
     margin-top: 15px;
