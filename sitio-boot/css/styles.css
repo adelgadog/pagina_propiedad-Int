@@ -1,10 +1,10 @@
 @font-face{
-    src: url("../fonts/Khula-Regular.ttf");
+    src: url("../fonts/HammersmithOne-Regular.ttf");
     font-family: "Kula";
 }
 @font-face{
-    src: url("../fonts/Saira-Regular.ttf");
-    font-family: "Saira";
+    src: url("../fonts/Gupter-Medium.ttf");
+    font-family: "Gupter";
 }
 *{
     margin:0;
@@ -20,9 +20,9 @@ body {
  
 header {
     width: 100%;
-    background-color: #5fc500;
+    background-color: #81df29;
     font-size: 11pt;
-    font-family: 'Saira', sans-serif;
+    font-family: 'Kula', sans-serif;
     height: auto;
     z-index: 5;
 }
@@ -33,7 +33,18 @@ header img{
     width: 50px;
 
 }
+#port{
+    padding-top: 50px;
+    
+}
+#port h1{
+    font-size: 30px;
+    position: absolute;
+    margin-left: 527px;
+    margin-top: -49px;
+    color: black;
 
+}
 
 .head{
     text-align: center;
@@ -115,7 +126,8 @@ section{
 }
 .art1{
     text-align: justify;
-    font-family: 'Kula', sans-serif;
+    font-family: 'Gupter', sans-serif;
+    font-size: 17px;
     
 }
 .art1 p, .art1 h2, .art1 h3{
@@ -126,6 +138,9 @@ section{
 
 .art1 h3{
     background-color: rgb(224, 236, 222);
+}
+.art1 h2{
+    padding-top:20px;
 }
 .principal{
     height: 350px;
@@ -143,8 +158,8 @@ ul, ol{
 }
 .pie{
     width: 100%;
-    height: 12%;    
-    background-color: #5fc500;
+    height: 12%;
+    background-color: #81df29;
     position: relative;
 }
 .creadores{
@@ -155,4 +170,15 @@ ul, ol{
     position: absolute;
     right: 0;
     bottom: 0;
+}
+
+#imprin{
+    padding: 10px;
+    margin-left: 215px;
+    border-radius: 5%;
+    min-width: 500px;
+}
+
+ul, ol{
+    padding-top:10px ;
 }
